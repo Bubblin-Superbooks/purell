@@ -27,10 +27,14 @@
   "dependencies": {
     "arc-bookiza": "0.0.13",
     "chalk": "2.4.2",
+    "cheerio": "1.0.0-rc.2",
+    "clean-html": "1.5.0",
     "commander": "2.20.0",
-    "marked": "0.6.2",
+    "fs-extra": "7.0.1",
+    "git-bookiza": "0.0.10",
+    "natives": "1.1.6",
     "request": "2.88.0",
-    "sanitize-html": "1.20.0",
-    "superagent": "5.0.2"
+    "request-promise": "4.2.4",
+    "shelljs": "0.8.3"
   }
 }
