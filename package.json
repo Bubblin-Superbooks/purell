@@ -1,12 +1,36 @@
 {
   "name": "purell",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "Prepare the manuscript for Superbook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bookiza/purell.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "sanitize",
+    "superbook",
+    "prepare"
+  ],
+  "bin": {
+    "purell": "./bin/bin.js",
+    "p": "./bin/bin.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": "10.6.0"
+  },
   "author": "Marvin Danig <marvin@marvindanig.com> (http://marvindanig.com)",
-  "license": "Blue-Oak"
+  "license": "BOL",
+  "dependencies": {
+    "arc-bookiza": "0.0.13",
+    "chalk": "2.4.2",
+    "commander": "2.20.0",
+    "marked": "0.6.2",
+    "request": "2.88.0",
+    "sanitize-html": "1.20.0",
+    "superagent": "5.0.2"
+  }
 }
