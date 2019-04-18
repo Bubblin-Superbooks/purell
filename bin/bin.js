@@ -8,23 +8,42 @@ const path = require('path')
 
 const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'package.json')).toString())
 
+
 program
-  .command('fetch')
+  .command('fetch <url>')
   .alias('f')
-  .description('Fetch single markdown long-scroll (.md, .markdown or .txt )')
-  .option('-f, --file <file_path>', 'Use path to file')
-  .option('-u, --url <url>', 'Use url')
-  .action(options => {
-    const original = require(path.join('..', 'lib', 'fetch.js'));
-    original.fetch(options);
-  }).on('--help', () => {
+  .description('Fetches a longscroll webpage')
+  .option("-f, --force", "Force a fetch")
+  .action(function(url, options) {
+    var original = require(path.join('..', 'lib', 'fetch.js'))
+    original.fetch(url, options)
+  }).on('--help', function() {
     console.log('  Examples:');
     console.log();
-    console.log('    $ m2s fetch http(s)://url.html');
-    console.log('    $ m2s f http://url.html');
-    console.log(chalk.bold('    $ a f https://full_url_here.html    # shortform'));
+    console.log('    $ pure fetch http(s)://url.html');
+    console.log('    $ pure f http://url.html');
+    console.log(chalk.bold('    $ pure f https://full_url_here.html    # shortform'));
     console.log();
   });
+
+
+program
+  .command('defile <file_path>')
+  .alias('d')
+  .description('Defile a file ')
+  .option("-f, --force", "Force a sharding")
+  .action(function(file_path, options) {
+    var file = require(path.join('..', 'lib', 'defile.js'))
+    file.defile(file_path, options)
+  }).on('--help', function() {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ pure defile _path_to_file_');
+    console.log('    $ pure d _path_to_file_');
+    console.log(chalk.bold('    $ p d _path_to_file_    # shortform'));
+    console.log();
+  });
+
 
 
 program

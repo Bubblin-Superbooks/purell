@@ -1,7 +1,7 @@
 {
   "name": "purell",
-  "version": "1.0.1",
-  "description": "Prepare the manuscript for Superbook",
+  "version": "1.0.2",
+  "description": "Hand sanitizer for HTML",
   "repository": {
     "type": "git",
     "url": "https://github.com/bookiza/purell.git"
@@ -15,8 +15,7 @@
     "prepare"
   ],
   "bin": {
-    "purell": "./bin/bin.js",
-    "p": "./bin/bin.js"
+    "pure": "./bin/bin.js"
   },
   "preferGlobal": true,
   "engines": {
@@ -32,9 +31,11 @@
     "commander": "2.20.0",
     "fs-extra": "7.0.1",
     "git-bookiza": "0.0.10",
+    "marked": "0.6.2",
     "natives": "1.1.6",
     "request": "2.88.0",
     "request-promise": "4.2.4",
+    "sanitize-html": "1.20.0",
     "shelljs": "0.8.3"
   }
 }
