@@ -63,6 +63,24 @@ program
   });
 
 
+program
+  .command('assetize')
+  .alias('a')
+  .description('Fill in assets / html')
+  .action(function() {
+    var page = require(path.join('..', 'lib', 'asset.js'))
+    page.assetize()
+  }).on('--help', function() {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ abelone assetize ');
+    console.log('    $ abelone a ');
+    console.log(chalk.bold('    $ a a   #shortform'));
+    console.log();
+  });
+
+
+
 // Command catchall
 program
   .command('*')
