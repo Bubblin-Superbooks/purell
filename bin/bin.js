@@ -56,8 +56,8 @@ program
   }).on('--help', () => {
     console.log('  Examples:')
     console.log()
-    console.log('    $ m2s sanitize ')
-    console.log('    $ m2s s ')
+    console.log('    $ pure sanitize ')
+    console.log('    $ pure s ')
     console.log(chalk.bold.bgGreen('    $ a s'))
     console.log()
   });
