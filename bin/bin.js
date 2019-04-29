@@ -68,7 +68,7 @@ program
   .alias('a')
   .description('Fill in assets / html')
   .action(function() {
-    var page = require(path.join('..', 'lib', 'asset.js'))
+    var page = require(path.join('..', 'lib', 'assetize.js'))
     page.assetize()
   }).on('--help', function() {
     console.log('  Examples:');

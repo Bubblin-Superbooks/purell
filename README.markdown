@@ -1,6 +1,6 @@
 # Purell Hand Santizer for HTML
 
-Purell is used to extract manuscript from any kind of file format and prepare it for conversion into a raw [Superbook](https://bubblin.io/docs/format).  It is `pure` CLI utility to sanitize low quality markup into clean markdown compatible markup.
+Purell is used to extract manuscript from any kind of file format and prepare it for conversion into a raw [Superbook](https://bubblin.io/docs/format).  It is `pure` CLI utility to sanitize low quality markup into clean markdown compatible markup—the principal.
 
 ### How to use
 

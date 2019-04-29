@@ -1,6 +1,6 @@
 {
   "name": "purell",
-  "version": "1.0.3",
+  "version": "1.1.4",
   "description": "Hand sanitizer for HTML",
   "repository": {
     "type": "git",
@@ -35,7 +35,8 @@
     "natives": "1.1.6",
     "request": "2.88.0",
     "request-promise": "4.2.4",
-    "sanitize-html": "1.20.0",
-    "shelljs": "0.8.3"
+    "sanitize-html": "1.20.1",
+    "shelljs": "0.8.3",
+    "unzip": "0.1.11"
   }
 }
