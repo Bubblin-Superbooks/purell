@@ -1,6 +1,6 @@
 {
   "name": "purell",
-  "version": "1.1.7",
+  "version": "1.2.8",
   "description": "Hand sanitizer for HTML",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "clean-html": "1.5.0",
     "commander": "2.20.0",
     "fs-extra": "7.0.1",
-    "git-bookiza": "0.0.10",
+    "git-bookiza": "1.0.0",
     "marked": "0.6.2",
     "natives": "1.1.6",
     "request": "2.88.0",
