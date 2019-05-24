@@ -29,7 +29,7 @@ Documentation on these parts are sparse. Copious amounts of patience is advised.
 
 ```
 
-The responsibility to convert `Markdown Compatible HTML (Sanitized)` into a Superbook is left with [m2s](https://github.com/bookiza/m2s). 
+The responsibility to paginate `Markdown Compatible HTML` (the sanitized.html file) into a Superbook is left with [h2s](https://github.com/bookiza/h2s). 
 
 
 ### License
