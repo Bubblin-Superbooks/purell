@@ -44,6 +44,22 @@ program
     console.log();
   });
 
+program
+  .command('turndown <file_path>')
+  .alias('t')
+  .option("-f, --force", "Force a sharding")
+  .description('Ugly HTML to a clean markdown!')
+  .action(function(file_path, options) {
+    var file = require(path.join('..', 'lib', 'turndown.js'))
+    file.defile(file_path, options)
+  }).on('--help', function() {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ pure turndown _path_to_html_');
+    console.log('    $ pure t _path_to_html_');
+    console.log(chalk.bold('    $ p t _path_to_html_    # shortform'));
+    console.log();
+  });
 
 
 program
