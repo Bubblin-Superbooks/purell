@@ -1,6 +1,6 @@
 {
   "name": "purell",
-  "version": "3.3.13",
+  "version": "3.3.14",
   "description": "Hand sanitizer for HTML",
   "repository": {
     "type": "git",
@@ -19,25 +19,25 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": "10.6.0"
+    "node": "10.7.0"
   },
   "author": "Marvin Danig <marvin@marvindanig.com> (http://marvindanig.com)",
   "license": "BOL",
   "dependencies": {
     "arc-bookiza": "0.0.13",
-    "chalk": "2.4.2",
-    "cheerio": "1.0.0-rc.2",
+    "chalk": "4.1.0",
+    "cheerio": "1.0.0-rc.3",
     "clean-html": "1.5.0",
-    "commander": "2.20.0",
-    "fs-extra": "8.0.1",
+    "commander": "6.0.0",
+    "fs-extra": "9.0.1",
     "git-bookiza": "1.0.0",
-    "marked": "0.6.2",
+    "marked": "1.1.1",
     "natives": "1.1.6",
-    "request": "2.88.0",
-    "request-promise": "4.2.4",
-    "sanitize-html": "1.20.1",
-    "shelljs": "0.8.3",
-    "turndown": "5.0.3",
+    "request": "2.88.2",
+    "request-promise": "4.2.6",
+    "sanitize-html": "1.27.3",
+    "shelljs": "0.8.4",
+    "turndown": "6.0.0",
     "unzip": "0.1.11"
   }
 }
