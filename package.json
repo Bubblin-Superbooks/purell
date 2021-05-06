@@ -35,7 +35,7 @@
     "natives": "1.1.6",
     "request": "2.88.2",
     "request-promise": "4.2.6",
-    "sanitize-html": "2.3.0",
+    "sanitize-html": "2.3.2",
     "shelljs": "0.8.4",
     "turndown": "7.0.0",
     "unzip": "0.1.11"
