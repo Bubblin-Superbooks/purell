@@ -36,7 +36,7 @@
     "request": "2.88.2",
     "request-promise": "4.2.6",
     "sanitize-html": "2.3.0",
-    "shelljs": "0.8.4",
+    "shelljs": "0.8.5",
     "turndown": "7.0.0",
     "unzip": "0.1.11"
   }
