@@ -1,19 +1,17 @@
 # Purell — The Hand Santizer for HTML
 
-Purell is used to extract manuscript from any kind of file format and prepare it for conversion into a raw [Superbook](https://bubblin.io/docs/format).  It is `pure` CLI utility to convert and sanitize low quality markup into clean markdown compatible markup—the lowest common denominator between web and other propreitary formats.
+THIS LIBRARY IS DEPRECATED. IT MIGHT STILL WORK FOR CERTAIN USE CASES BUT ISN'T BEING ACTIVELY MAINTAINED OR BEING DEVELOPED ANY FURTHER. 
+
+Purell is used to extract clean HTML from any kind of flat file format and prepare it for conversion into a raw [Superbook](https://bubblin.io/docs/format).  It is a `pure` CLI utility to turn low quality markup available off of ordinary files into a high-quality Superbook-compatible markdown as per Bubblin-approved standards.
 
 ### How to use
 
-Purell is almost entirely designed to be used at the root of a [Bookiza](https://bookiza.io) app. But it can be used as a transitor between file formats as well, like so:
+Purell is almost entirely designed to be used at the root of a [Bookiza](https://bookiza.io) app. However, it can also be used as a transitioning tool between older file formats and the Superbook format,like so:
 
-1. MS Word ⭌ Ugly HTML extract ⭌ Markdown Compatible HTML (Sanitized) ⭌ Superbook
-2. ePub ⭌ Markdown Compatible HTML (Sanitized) ⭌ Superbook
-3. PDF ⭌ Markdown Compatible HTML (Sanitized) ⭌ Superbook
-4. Webpage (Scroll) ⭌ Markdown Compatible HTML (Sanitized) ⭌ Superbook
-
-### Alert
-
-Documentation on these parts are sparse. Copious amounts of patience is advised. 
+1. MS Word ⭌ Extract ugly HTML ⭌ Markdown ⭌ Sanitized HTML ⭌ Superbook
+2. ePub ⭌ Markdown ⭌ Sanitized HTML ⭌ Superbook
+3. PDF ⭌ ⭌ Markdown ⭌ Sanitized HTML ⭌ Superbook
+4. Webpage (Scroll) ⭌ Markdown ⭌ Sanitized HTML ⭌ Superbook
 
 ### Vocabulary
 
@@ -29,7 +27,7 @@ Documentation on these parts are sparse. Copious amounts of patience is advised.
 
 ```
 
-The responsibility to paginate `Markdown Compatible HTML` (the sanitized.html file) into a Superbook is left with [h2s](https://github.com/bookiza/h2s). 
+The responsibility to paginate the `sanitized.html` into a Superbook is held by [h2s](https://github.com/bookiza/h2s). 
 
 
 ### License
