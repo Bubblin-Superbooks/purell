@@ -1,6 +1,6 @@
-# Purell — The Hand Santizer for HTML
-
 **THIS LIBRARY IS DEPRECATED.** IT MIGHT STILL WORK FOR CERTAIN USE CASES BUT ISN'T BEING ACTIVELY DEVELOPED OR MAINTAINED ANYMORE. 
+
+# Purell — The Hand Santizer for HTML
 
 Purell is used to extract clean HTML from any kind of flat file format and prepare it for conversion into a raw [Superbook](https://bubblin.io/docs/format).  It is a `pure` CLI utility to turn low quality markup available off of ordinary files into a high-quality Superbook-compatible markdown as per Bubblin-approved standards.
 
